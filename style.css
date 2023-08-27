@@ -1,0 +1,159 @@
+@media (max-width: 900px) {
+    body{
+        background-color: hsl(217, 54%, 11%);
+        font-family: "Helvetica Neue",Helvetica,Arial;
+    }
+    
+    .grey{
+        color: hsl(215, 51%, 70%)
+    }
+    
+    .white{
+        color: hsl(0, 0%, 100%);
+    }
+    
+    .font{
+        font-size: 18px;
+    }
+    
+    .width{
+        width: 80%;
+    }
+    
+    .container{
+        width: 80%;
+        background-color:   hsl(216, 50%, 16%);
+        margin: 50px auto;
+        border-radius: 10px;
+        padding: 10px;
+    }
+    
+    .container img{
+        width: 90%;
+        display: block;
+        margin: 5% auto;
+        border-radius: 10px;
+    }
+    
+    .container .other{
+        width: 90%;
+        margin: 5%;
+    }
+    
+    .container .other h1{
+        color: hsl(0, 0%, 100%);
+    }
+    
+    .container .other .group{
+        display: flex;
+        gap: 1rem;
+    }
+    
+    .container .other .group .single{
+        margin-inline-start: auto;
+    }
+    
+    .color-cyan{
+        color: hsl(178, 100%, 50%);
+    }
+    
+    hr{
+        border: 1px solid;
+        color: hsl(215, 32%, 27%);
+        margin: 5% 0%;
+    }
+    
+    .container .other img{
+        width: 10%;
+        margin: 0;
+        padding-right: 5%;
+    }
+    
+    .container .other .footer{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 0.5rem;
+    }
+
+    .attribution{
+        color: hsl(0, 0%, 100%);
+    }
+       
+}
+
+
+@media (min-width: 900px){
+    
+
+    .grey{
+        color: hsl(215, 51%, 70%)
+    }
+    
+    .white{
+        color: hsl(0, 0%, 100%);
+    }
+    
+    .color-cyan{
+        color: hsl(178, 100%, 50%);
+    }
+
+    .font{
+        font-size: 18px;
+    }
+    
+    .width{
+        width: 80%;
+    }
+    
+    body {
+        background-color: hsl(217, 54%, 11%);
+        font-family: "Helvetica Neue",Helvetica,Arial;
+    }
+
+    .container {
+        width: 20%;
+        margin: 5% auto;
+        padding: 2%;
+        background-color: hsl(215, 32%, 27%);
+    }
+
+    .container img{
+        width: 100%;
+    }
+
+    .container .other .group {
+        display: flex;
+        gap: 0.5rem;
+    }
+
+    .container .other .group .single {
+        margin-inline-start: auto;
+    }
+
+    hr{
+        border: 1px solid;
+        color: hsl(215, 51%, 70%);
+        margin: 5% 0%;
+    }
+
+    .container .other .footer img{
+        width: 10%;
+        margin-right: 3%;
+    }
+
+    .container .other .footer{
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+
+    }
+
+    .attribution{
+        color: hsl(0, 0%, 100%);
+    }
+
+
+}
+
+
